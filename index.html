@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Placement Predictor — Login</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <div class="center-card">
+    <h1>🎓 Placement Predictor</h1>
+    <div class="tabs">
+      <button id="showRegister" class="tab active">Register</button>
+      <button id="showLogin" class="tab">Login</button>
+    </div>
+
+    <div id="registerForm" class="form">
+      <input id="regName" placeholder="Full name" />
+      <input id="regEmail" placeholder="Email" type="email" />
+      <input id="regPassword" placeholder="Password" type="password" />
+      <button id="btnRegister">Create account</button>
+      <p class="muted">Your credentials are stored locally in your browser for demo purposes.</p>
+    </div>
+
+    <div id="loginForm" class="form hidden">
+      <input id="loginEmail" placeholder="Email" type="email" />
+      <input id="loginPassword" placeholder="Password" type="password" />
+      <button id="btnLogin">Login</button>
+    </div>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
